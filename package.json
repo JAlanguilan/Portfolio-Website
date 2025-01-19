@@ -1,21 +1,19 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "A responsive portfolio website hosted on GitHub Pages.",
-  "main": "src/index.html",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "start": "live-server src",
-    "build": "echo 'No build process defined'"
+    "build": "echo 'No build process defined'",
+    "deploy": "gh-pages -d src"
   },
-  "keywords": [
-    "portfolio",
-    "website",
-    "responsive"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "live-server": "^1.2.1"
-  }
+  },
+  "homepage": "https://jalanguilan.github.io/Portfolio-Website"
 }
