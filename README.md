@@ -12,26 +12,10 @@ This is a responsive portfolio website created to showcase my projects, skills, 
   - `index.html`: The main landing page of the portfolio.
   - `about.html`: Provides information about me, including my background and skills.
 
-## Setup Instructions
-
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-
-2. Navigate to the project directory:
-   ```
-   cd portfolio-website
-   ```
-
-3. Open the `index.html` file in your web browser to view the portfolio.
 
 ## Technologies Used
 
+- Bootstrap
 - HTML
 - CSS
 - JavaScript
-
-## License
-
-This project is licensed under the MIT License.
