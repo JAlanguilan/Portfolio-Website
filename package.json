@@ -6,14 +6,16 @@
   "scripts": {
     "start": "live-server",
     "build": "echo 'No build process defined'",
-    "deploy": "gh-pages -d ."
+    "predeploy": "rimraf node_modules/.cache/gh-pages",
+    "deploy": "gh-pages -d . --dotfiles"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^6.1.1",
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "rimraf": "^5.0.10"
   },
   "homepage": "https://jalanguilan.github.io/Portfolio-Website"
 }
